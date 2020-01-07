@@ -1,0 +1,815 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasDescription"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundMetrics"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticsObservation"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasAcousticPerformance"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasDescription"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasDescription"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasObservationType"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AirborneSoundInsulation"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundInsulation"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AirborneSoundInsulation"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundInsulation"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AirborneSoundInsulation"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundInsulation"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AirborneSoundInsulation"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundInsulation"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#JointSoundInsulation"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasJointInsulation"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasName"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticsProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#observes"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasPublisher"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundPowerLevel"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticsPerformance"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasDescription"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasName"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AirborneSoundInsulation"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundInsulation"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AirborneSoundInsulation"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundInsulation"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AirborneSoundInsulation"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundInsulation"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasDescription"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasName"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasPublisher"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasConstrains"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticRequirements"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasMeter"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticsMeter"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundPerformance"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticsPerformance"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundSource"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#SoundSource"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/bot#hasElement"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/bot#Element"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasDescription"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasName"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasDescription"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasName"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasDescription"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasName"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSource"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#SoundSource"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasConstrains"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticRequirements"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "SUITE5 & RISE"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "The vocabulary extends W3C Semantic Sensor Network Ontology (SSN) with classes and properties to represent the data about building acoustics."
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "This ontology is distributed under Apache License Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "BIM4EEB Building Accoustics Ontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The  ontology was created by SUITE5 under the framework of the BIM4EEB project (GA 820660), supported through the EU Horizon 2020 Research and Innovation Programme  under the topic \" Building information modelling adapted to efficient renovation (RIA)\"\n\nThe puspose of the  ontology is to provide an operational framework for the orchestration of heterogeneous (environmental-, health-, user profile- related) data, in order to support user-oriented behavioural profile that incorporates also health related parameters."
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/"
+  }, {
+    "@id" : "https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/bot.ttl"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticParameters",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The list of accoustic proberties for the selected building systems"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Acoustic Properties"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticRequirements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Requirements set by the regulation about acoustics parameters to be considered in the building environment or elements"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Acoustics Regulation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticsMeter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The device in place to measure the level of noise"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Acoustic Meter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Platform"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticsObservation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The list of acoustics measurements in the bulding environment as captured by the noise sensor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Acoustic Observation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Observation"
+  }, {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticsPerformance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sensor based measurement of acoustics performance in the building environment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Acoustic Performance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  }, {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticsProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The specific property to be measured by the sensing device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Acoustic Property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  }, {
+    "@id" : "_:genid13"
+  }, {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AirborneSoundImprovement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Airborne Sound Improvement for a building element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticParameters"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AirborneSoundInsulation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Airborne Sound Insulation  for a building element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticParameters"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AverageNoiseLevel",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#Door",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Building Door"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/bot#Element"
+  }, {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#Elevator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Building Elevator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#ServiceEquipment"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#FacadeElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Building Facade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/bot#Element"
+  }, {
+    "@id" : "_:genid16"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#FlankingSoundTransmission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Flanking  Sound Improvement for a building element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticParameters"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#Floor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Building Floor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/bot#Element"
+  }, {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#FloorCovering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Floor Covering Element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/bot#Element"
+  }, {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#HVAC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "HVAC Unit of the building"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#ServiceEquipment"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#ImpactNoise",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Impact Noise of a building element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticParameters"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#Joint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Joint Section of the building"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/bot#Element"
+  }, {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#JointSoundInsulation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Joint  Sound Improvement for a building element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticParameters"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#Noise",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#NoiseSensor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The sensor as part of the acoustics meter responsible to measure the noise level in the building area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Noise Sensor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  }, {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#PercentilNoiseLevel",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#ReverberationTime",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#ServiceEquipment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sound generation source equipment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#SoundSource"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#SoundAbsorption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticParameters"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#SoundClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The sound class of a building element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sound Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticRequirements"
+  }, {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#SoundSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The list of sound sources in the building environment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sound Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid22"
+  }, {
+    "@id" : "_:genid23"
+  }, {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#SuspendedCeiling",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Suspended Ceiling Element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/bot#Element"
+  }, {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#Talk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sound generation source other"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#SoundSource"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#VibrationReductionIndex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticParameters"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#Wall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Buidling Wall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/bot#Element"
+  }, {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#WasteWater",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Waste water from the water source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#ServiceEquipment"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#Window",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Building Window"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/bot#Element"
+  }, {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasAcousticPerformance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A list of acoustics peformance indicators"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AverageNoiseLevel"
+  }, {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#PercentilNoiseLevel"
+  }, {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#ReverberationTime"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasConstrains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "building zone has constrains some acoustics requirements as defined by regulation"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A description of the class"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasJointInsulation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A joint has joint insulation parameters"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasMeter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A zone has some IoT equipment installed to measure acoustics related parameters"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class name"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasObservationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Type of accoustics related observation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#Noise"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasPublisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A regulation publisher"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundInsulation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "building element has sound insulation"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundMetrics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relationship between the acoustic performance and the metrics considered from the zone"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundPerformance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A building zone has some sound performance"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundPowerLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sound source has some accoustics performance value"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSoundSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A zone has a sound source"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#hasSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Noise observation has source"
+  } ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#noise",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#observes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "sensor observation value"
+  } ]
+}, {
+  "@id" : "https://w3id.org/bot#Element",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid28"
+  }, {
+    "@id" : "_:genid29"
+  } ]
+}, {
+  "@id" : "https://w3id.org/bot#Zone",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid30"
+  }, {
+    "@id" : "_:genid31"
+  }, {
+    "@id" : "_:genid32"
+  }, {
+    "@id" : "_:genid33"
+  }, {
+    "@id" : "_:genid34"
+  }, {
+    "@id" : "_:genid35"
+  }, {
+    "@id" : "_:genid36"
+  } ]
+} ]
