@@ -323,27 +323,50 @@
     "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticRequirements"
   } ]
 }, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/terms/creator" : [ {
-    "@value" : "SUITE5 & RISE"
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "RISE (ri.se)"
+  }, {
+    "@value" : "SUITE5 (suite5.eu)"
+  } ],
+  "http://purl.org/dc/terms/abstract" : [ {
+    "@value" : "Extension of W3C Semantic Sensor Network Ontology (SSN) with representation of building acoustics."
   } ],
   "http://purl.org/dc/terms/description" : [ {
-    "@value" : "The vocabulary extends W3C Semantic Sensor Network Ontology (SSN) with classes and properties to represent the data about building acoustics."
+    "@value" : "The IAQ Ontology  formalise the model to be considered for IAQ modeling in the building environment."
   } ],
   "http://purl.org/dc/terms/license" : [ {
-    "@value" : "This ontology is distributed under Apache License Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)"
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
   } ],
   "http://purl.org/dc/terms/title" : [ {
-    "@value" : "BIM4EEB Building Accoustics Ontology"
+    "@value" : "Digital Construction - BuildingAcoustics"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "dicba"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/digitalconstruction/BuildingAcoustics"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "The  ontology was created by SUITE5 under the framework of the BIM4EEB project (GA 820660), supported through the EU Horizon 2020 Research and Innovation Programme  under the topic \" Building information modelling adapted to efficient renovation (RIA)\"\n\nThe puspose of the  ontology is to provide an operational framework for the orchestration of heterogeneous (environmental-, health-, user profile- related) data, in order to support user-oriented behavioural profile that incorporates also health related parameters."
+    "@value" : "The IAQ ontology was created by SUITE5 in the BIM4EEB project (GA 820660), supported through the EU Horizon 2020 Research and Innovation Programme under the topic Building information modelling adapted to efficient renovation (RIA). "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Digital construction - BuildingAcoustics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://w3id.org/digitalconstruction"
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "http://www.w3.org/ns/ssn/"
   }, {
-    "@id" : "https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/bot.ttl"
+    "@id" : "https://w3id.org/bot#"
   } ]
 }, {
   "@id" : "https://github.com/SUITE5-Energy/bim4eeb-ontologies/blob/master/buildingAcoustics.ttl#AcousticParameters",
@@ -790,6 +813,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/bot#Element",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid28"
   }, {
@@ -797,6 +821,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/bot#Zone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid30"
   }, {
@@ -812,4 +837,7 @@
   }, {
     "@id" : "_:genid36"
   } ]
+}, {
+  "@id" : "https://w3id.org/bot#hasElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 } ]
