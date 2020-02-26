@@ -1,0 +1,455 @@
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/ssn/> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/bot#> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://purl.org/dc/elements/1.1/creator> "RISE (ri.se)" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://purl.org/dc/elements/1.1/creator> "SUITE5 (suite5.eu)" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://purl.org/dc/terms/abstract> "Extension of W3C Semantic Sensor Network Ontology (SSN) with representation of building acoustics." .
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://purl.org/dc/terms/description> "The IAQ Ontology  formalise the model to be considered for IAQ modeling in the building environment." .
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://purl.org/dc/terms/title> "Digital Construction - BuildingAcoustics" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://purl.org/vocab/vann/preferredNamespacePrefix> "dicba" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/digitalconstruction/BuildingAcoustics" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://www.w3.org/2000/01/rdf-schema#comment> "The IAQ ontology was created by SUITE5 in the BIM4EEB project (GA 820660), supported through the EU Horizon 2020 Research and Innovation Programme under the topic Building information modelling adapted to efficient renovation (RIA). " .
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://www.w3.org/2000/01/rdf-schema#label> "Digital construction - BuildingAcoustics" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/digitalconstruction> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#AverageNoiseLevel
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AverageNoiseLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#Noise
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Noise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#PercentilNoiseLevel
+<https://w3id.org/digitalconstruction/BuildingAcoustics#PercentilNoiseLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#ReverberationTime
+<https://w3id.org/digitalconstruction/BuildingAcoustics#ReverberationTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/bot#hasElement
+<https://w3id.org/bot#hasElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#hasConstrains
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasConstrains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasConstrains> <http://www.w3.org/2000/01/rdf-schema#comment> "building zone has constrains some acoustics requirements as defined by regulation" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#hasJointInsulation
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasJointInsulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasJointInsulation> <http://www.w3.org/2000/01/rdf-schema#comment> "A joint has joint insulation parameters" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#hasMeter
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasMeter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasMeter> <http://www.w3.org/2000/01/rdf-schema#comment> "A zone has some IoT equipment installed to measure acoustics related parameters" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation> <http://www.w3.org/2000/01/rdf-schema#comment> "building element has sound insulation" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundMetrics
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundMetrics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundMetrics> <http://www.w3.org/2000/01/rdf-schema#comment> "Relationship between the acoustic performance and the metrics considered from the zone" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPerformance
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPerformance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPerformance> <http://www.w3.org/2000/01/rdf-schema#comment> "A building zone has some sound performance" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPowerLevel
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPowerLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPowerLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Sound source has some accoustics performance value" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundSource
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundSource> <http://www.w3.org/2000/01/rdf-schema#comment> "A zone has a sound source" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#hasSource
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Noise observation has source" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#observes
+<https://w3id.org/digitalconstruction/BuildingAcoustics#observes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#observes> <http://www.w3.org/2000/01/rdf-schema#comment> "sensor observation value" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#hasAcousticPerformance
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasAcousticPerformance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasAcousticPerformance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/BuildingAcoustics#AverageNoiseLevel> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasAcousticPerformance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/BuildingAcoustics#PercentilNoiseLevel> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasAcousticPerformance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/BuildingAcoustics#ReverberationTime> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasAcousticPerformance> <http://www.w3.org/2000/01/rdf-schema#comment> "A list of acoustics peformance indicators" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of the class" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#hasName
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasName> <http://www.w3.org/2000/01/rdf-schema#comment> "Class name" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#hasObservationType
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasObservationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasObservationType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/BuildingAcoustics#Noise> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasObservationType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of accoustics related observation" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#hasPublisher
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasPublisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#hasPublisher> <http://www.w3.org/2000/01/rdf-schema#comment> "A regulation publisher" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/bot#Element
+<https://w3id.org/bot#Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bot#Element> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/bot#Element> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasName> .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://w3id.org/bot#Zone
+<https://w3id.org/bot#Zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/bot#hasElement> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/bot#Element> .
+<https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasConstrains> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements> .
+<https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasMeter> .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsMeter> .
+<https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPerformance> .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance> .
+<https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundSource> .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource> .
+<https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription> .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasName> .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription> .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasName> .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasPublisher> .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters> <http://www.w3.org/2000/01/rdf-schema#comment> "The list of accoustic proberties for the selected building systems" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters> <http://www.w3.org/2000/01/rdf-schema#label> "Acoustic Properties" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription> .
+_:genid13 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasName> .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements> <http://www.w3.org/2000/01/rdf-schema#comment> "Requirements set by the regulation about acoustics parameters to be considered in the building environment or elements" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements> <http://www.w3.org/2000/01/rdf-schema#label> "Acoustics Regulation" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsMeter
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsMeter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsMeter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/Platform> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsMeter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription> .
+_:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsMeter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasName> .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsMeter> <http://www.w3.org/2000/01/rdf-schema#comment> "The device in place to measure the level of noise" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsMeter> <http://www.w3.org/2000/01/rdf-schema#label> "Acoustic Meter" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsObservation
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsObservation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/Observation> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsObservation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasSource> .
+_:genid17 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsObservation> <http://www.w3.org/2000/01/rdf-schema#comment> "The list of acoustics measurements in the bulding environment as captured by the noise sensor" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsObservation> <http://www.w3.org/2000/01/rdf-schema#label> "Acoustic Observation" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasConstrains> .
+_:genid18 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundMetrics> .
+_:genid19 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsObservation> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasAcousticPerformance> .
+_:genid20 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription> .
+_:genid21 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance> <http://www.w3.org/2000/01/rdf-schema#comment> "Sensor based measurement of acoustics performance in the building environment" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "Acoustic Performance" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/ObservableProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription> .
+_:genid22 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasObservationType> .
+_:genid23 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "The specific property to be measured by the sensing device" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Acoustic Property" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundImprovement
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundImprovement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundImprovement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundImprovement> <http://www.w3.org/2000/01/rdf-schema#comment> "Airborne Sound Improvement for a building element" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation> <http://www.w3.org/2000/01/rdf-schema#comment> "Airborne Sound Insulation  for a building element" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#Door
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Door> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Door> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Element> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Door> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation> .
+_:genid24 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Door> <http://www.w3.org/2000/01/rdf-schema#comment> "Building Door" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#Elevator
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Elevator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Elevator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/BuildingAcoustics#ServiceEquipment> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Elevator> <http://www.w3.org/2000/01/rdf-schema#comment> "Building Elevator" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#FacadeElement
+<https://w3id.org/digitalconstruction/BuildingAcoustics#FacadeElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#FacadeElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Element> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#FacadeElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation> .
+_:genid25 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#FacadeElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Building Facade" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#FlankingSoundTransmission
+<https://w3id.org/digitalconstruction/BuildingAcoustics#FlankingSoundTransmission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#FlankingSoundTransmission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#FlankingSoundTransmission> <http://www.w3.org/2000/01/rdf-schema#comment> "Flanking  Sound Improvement for a building element" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#Floor
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Floor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Element> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Floor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation> .
+_:genid26 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Floor> <http://www.w3.org/2000/01/rdf-schema#comment> "Building Floor" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#FloorCovering
+<https://w3id.org/digitalconstruction/BuildingAcoustics#FloorCovering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#FloorCovering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Element> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#FloorCovering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation> .
+_:genid27 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#FloorCovering> <http://www.w3.org/2000/01/rdf-schema#comment> "Floor Covering Element" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#HVAC
+<https://w3id.org/digitalconstruction/BuildingAcoustics#HVAC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#HVAC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/BuildingAcoustics#ServiceEquipment> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#HVAC> <http://www.w3.org/2000/01/rdf-schema#comment> "HVAC Unit of the building" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#ImpactNoise
+<https://w3id.org/digitalconstruction/BuildingAcoustics#ImpactNoise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#ImpactNoise> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#ImpactNoise> <http://www.w3.org/2000/01/rdf-schema#comment> "Impact Noise of a building element" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#Joint
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Joint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Joint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Element> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Joint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasJointInsulation> .
+_:genid28 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#JointSoundInsulation> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Joint> <http://www.w3.org/2000/01/rdf-schema#comment> "Joint Section of the building" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#JointSoundInsulation
+<https://w3id.org/digitalconstruction/BuildingAcoustics#JointSoundInsulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#JointSoundInsulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#JointSoundInsulation> <http://www.w3.org/2000/01/rdf-schema#comment> "Joint  Sound Improvement for a building element" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#NoiseSensor
+<https://w3id.org/digitalconstruction/BuildingAcoustics#NoiseSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#NoiseSensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/Sensor> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#NoiseSensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#observes> .
+_:genid29 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#NoiseSensor> <http://www.w3.org/2000/01/rdf-schema#comment> "The sensor as part of the acoustics meter responsible to measure the noise level in the building area" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#NoiseSensor> <http://www.w3.org/2000/01/rdf-schema#label> "Noise Sensor" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#ServiceEquipment
+<https://w3id.org/digitalconstruction/BuildingAcoustics#ServiceEquipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#ServiceEquipment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#ServiceEquipment> <http://www.w3.org/2000/01/rdf-schema#comment> "Sound generation source equipment" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#SoundAbsorption
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SoundAbsorption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SoundAbsorption> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters> .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#SoundClass
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SoundClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SoundClass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SoundClass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasPublisher> .
+_:genid30 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SoundClass> <http://www.w3.org/2000/01/rdf-schema#comment> "The sound class of a building element" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SoundClass> <http://www.w3.org/2000/01/rdf-schema#label> "Sound Class" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPowerLevel> .
+_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription> .
+_:genid32 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasName> .
+_:genid33 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource> <http://www.w3.org/2000/01/rdf-schema#comment> "The list of sound sources in the building environment" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource> <http://www.w3.org/2000/01/rdf-schema#label> "Sound Source" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#SuspendedCeiling
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SuspendedCeiling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SuspendedCeiling> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Element> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SuspendedCeiling> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation> .
+_:genid34 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#SuspendedCeiling> <http://www.w3.org/2000/01/rdf-schema#comment> "Suspended Ceiling Element" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#Talk
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Talk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Talk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Talk> <http://www.w3.org/2000/01/rdf-schema#comment> "Sound generation source other" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#VibrationReductionIndex
+<https://w3id.org/digitalconstruction/BuildingAcoustics#VibrationReductionIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#VibrationReductionIndex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters> .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#Wall
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Wall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Wall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Element> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Wall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation> .
+_:genid35 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Wall> <http://www.w3.org/2000/01/rdf-schema#comment> "Buidling Wall" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#WasteWater
+<https://w3id.org/digitalconstruction/BuildingAcoustics#WasteWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#WasteWater> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/BuildingAcoustics#ServiceEquipment> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#WasteWater> <http://www.w3.org/2000/01/rdf-schema#comment> "Waste water from the water source" .
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#Window
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Window> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Window> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Element> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Window> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation> .
+_:genid36 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation> .
+<https://w3id.org/digitalconstruction/BuildingAcoustics#Window> <http://www.w3.org/2000/01/rdf-schema#comment> "Building Window" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/digitalconstruction/BuildingAcoustics#noise
+<https://w3id.org/digitalconstruction/BuildingAcoustics#noise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/
