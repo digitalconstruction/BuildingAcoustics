@@ -18,7 +18,7 @@
                                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "dicba" ;
                                                           <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/digitalconstruction/BuildingAcoustics" ;
                                                           rdfs:comment "The IAQ ontology was created by SUITE5 in the BIM4EEB project (GA 820660), supported through the EU Horizon 2020 Research and Innovation Programme under the topic Building information modelling adapted to efficient renovation (RIA). " ;
-                                                          rdfs:label "Digital construction - BuildingAcoustics" ;
+                                                          rdfs:label "Digital Construction - BuildingAcoustics" ;
                                                           rdfs:seeAlso <https://w3id.org/digitalconstruction> .
 
 #################################################################

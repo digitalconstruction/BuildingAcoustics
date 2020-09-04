@@ -10,7 +10,7 @@
 <https://w3id.org/digitalconstruction/BuildingAcoustics> <http://purl.org/vocab/vann/preferredNamespacePrefix> "dicba" .
 <https://w3id.org/digitalconstruction/BuildingAcoustics> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/digitalconstruction/BuildingAcoustics" .
 <https://w3id.org/digitalconstruction/BuildingAcoustics> <http://www.w3.org/2000/01/rdf-schema#comment> "The IAQ ontology was created by SUITE5 in the BIM4EEB project (GA 820660), supported through the EU Horizon 2020 Research and Innovation Programme under the topic Building information modelling adapted to efficient renovation (RIA). " .
-<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://www.w3.org/2000/01/rdf-schema#label> "Digital construction - BuildingAcoustics" .
+<https://w3id.org/digitalconstruction/BuildingAcoustics> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Construction - BuildingAcoustics" .
 <https://w3id.org/digitalconstruction/BuildingAcoustics> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/digitalconstruction> .
 # 
 # 
