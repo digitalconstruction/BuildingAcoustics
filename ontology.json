@@ -368,6 +368,9 @@
   "http://purl.org/dc/terms/abstract" : [ {
     "@value" : "Extension of W3C Semantic Sensor Network Ontology (SSN) with representation of building acoustics."
   } ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@value" : "Seppo Törmä"
+  } ],
   "http://purl.org/dc/terms/description" : [ {
     "@value" : "The IAQ Ontology  formalise the model to be considered for IAQ modeling in the building environment."
   } ],
@@ -396,17 +399,21 @@
     "@id" : "http://www.w3.org/ns/ssn/"
   }, {
     "@id" : "https://w3id.org/bot#"
+  }, {
+    "@id" : "https://w3id.org/digitalconstruction/Information"
   } ]
 }, {
   "@id" : "https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "The list of accoustic proberties for the selected building systems"
+    "@value" : "A quality in the accoustic domain"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Acoustic Properties"
+    "@value" : "AcousticQuality"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000019"
+  }, {
     "@id" : "_:genid10"
   }, {
     "@id" : "_:genid11"
@@ -420,9 +427,13 @@
     "@value" : "Requirements set by the regulation about acoustics parameters to be considered in the building environment or elements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Acoustics Regulation"
+    "@value" : "AcousticsRegulation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/digitalconstruction/Entities#InformationContentEntity"
+  }, {
+    "@id" : "https://w3id.org/digitalconstruction/Information#RegulatoryOrder"
+  }, {
     "@id" : "_:genid13"
   }, {
     "@id" : "_:genid14"
@@ -464,9 +475,11 @@
     "@value" : "Sensor based measurement of acoustics performance in the building environment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Acoustic Performance"
+    "@value" : "AcousticPerformance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/digitalconstruction/Information#PerformanceIndicator"
+  }, {
     "@id" : "_:genid18"
   }, {
     "@id" : "_:genid19"
@@ -671,7 +684,7 @@
     "@value" : "The list of sound sources in the building environment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Sound Source"
+    "@value" : "SoundSource"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid31"

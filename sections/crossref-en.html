@@ -12,20 +12,20 @@ This section provides details for each class and property defined by Digital Con
             title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsObservation">Acoustic Observation</a>
       </li>
       <li>
-         <a href="#AcousticsPerformance"
-            title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance">Acoustic Performance</a>
-      </li>
-      <li>
-         <a href="#AcousticParameters"
-            title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">Acoustic Properties</a>
-      </li>
-      <li>
          <a href="#AcousticsProperty"
             title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty">Acoustic Property</a>
       </li>
       <li>
+         <a href="#AcousticsPerformance"
+            title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance">AcousticPerformance</a>
+      </li>
+      <li>
+         <a href="#AcousticParameters"
+            title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">AcousticQuality</a>
+      </li>
+      <li>
          <a href="#AcousticRequirements"
-            title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements">Acoustics Regulation</a>
+            title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements">AcousticsRegulation</a>
       </li>
       <li>
          <a href="#AirborneSoundImprovement"
@@ -126,7 +126,7 @@ This section provides details for each class and property defined by Digital Con
       </li>
       <li>
          <a href="#SoundSource"
-            title="https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource">Sound Source</a>
+            title="https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource">SoundSource</a>
       </li>
       <li>
          <a href="#SuspendedCeiling"
@@ -204,8 +204,25 @@ This section provides details for each class and property defined by Digital Con
          </dd>
       </dl>
    </div>
+   <div class="entity" id="AcousticsProperty">
+      <h3>Acoustic Property<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty</p>
+      <div class="comment">
+         <span class="markdown">The specific property to be measured by the sensing device</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/sosa/ObservableProperty">observable property</span>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="AcousticsPerformance">
-      <h3>Acoustic Performance<sup class="type-c" title="class">c</sup>
+      <h3>AcousticPerformance<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
@@ -216,22 +233,27 @@ This section provides details for each class and property defined by Digital Con
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
-         <dd/>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/digitalconstruction/Information#PerformanceIndicator">performance indicator</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="AcousticParameters">
-      <h3>Acoustic Properties<sup class="type-c" title="class">c</sup>
+      <h3>AcousticQuality<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters</p>
       <div class="comment">
-         <span class="markdown">The list of accoustic proberties for the selected building systems</span>
+         <span class="markdown">A quality in the accoustic domain</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
-         <dd/>
+         <dd>
+            <span class="dotted" title="http://purl.obolibrary.org/obo/BFO_0000019">b f o 0000019</span>
+         </dd>
          <dt>has sub-classes</dt>
          <dd>
             <a href="#AirborneSoundImprovement"
@@ -252,25 +274,8 @@ This section provides details for each class and property defined by Digital Con
          </dd>
       </dl>
    </div>
-   <div class="entity" id="AcousticsProperty">
-      <h3>Acoustic Property<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty</p>
-      <div class="comment">
-         <span class="markdown">The specific property to be measured by the sensing device</span>
-      </div>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd>
-            <span class="dotted" title="http://www.w3.org/ns/sosa/ObservableProperty">observable property</span>
-         </dd>
-      </dl>
-   </div>
    <div class="entity" id="AcousticRequirements">
-      <h3>Acoustics Regulation<sup class="type-c" title="class">c</sup>
+      <h3>AcousticsRegulation<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
@@ -281,7 +286,11 @@ This section provides details for each class and property defined by Digital Con
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
-         <dd/>
+         <dd>
+            <span class="dotted"
+                  title="https://w3id.org/digitalconstruction/Entities#InformationContentEntity">information content entity</span>, <span class="dotted"
+                  title="https://w3id.org/digitalconstruction/Information#RegulatoryOrder">regulatory order</span>
+         </dd>
          <dt>has sub-classes</dt>
          <dd>
             <a href="#SoundClass"
@@ -304,7 +313,7 @@ This section provides details for each class and property defined by Digital Con
          <dt>has super-classes</dt>
          <dd>
             <a href="#AcousticParameters"
-               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">Acoustic Properties</a>
+               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">AcousticQuality</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -323,7 +332,7 @@ This section provides details for each class and property defined by Digital Con
          <dt>has super-classes</dt>
          <dd>
             <a href="#AcousticParameters"
-               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">Acoustic Properties</a>
+               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">AcousticQuality</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -429,7 +438,7 @@ This section provides details for each class and property defined by Digital Con
          <dt>has super-classes</dt>
          <dd>
             <a href="#AcousticParameters"
-               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">Acoustic Properties</a>
+               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">AcousticQuality</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -503,7 +512,7 @@ This section provides details for each class and property defined by Digital Con
          <dt>has super-classes</dt>
          <dd>
             <a href="#AcousticParameters"
-               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">Acoustic Properties</a>
+               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">AcousticQuality</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -540,7 +549,7 @@ This section provides details for each class and property defined by Digital Con
          <dt>has super-classes</dt>
          <dd>
             <a href="#AcousticParameters"
-               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">Acoustic Properties</a>
+               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">AcousticQuality</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -576,7 +585,7 @@ This section provides details for each class and property defined by Digital Con
          <dt>has super-classes</dt>
          <dd>
             <a href="#SoundSource"
-               title="https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource">Sound Source</a>
+               title="https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource">SoundSource</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>has sub-classes</dt>
@@ -602,7 +611,7 @@ This section provides details for each class and property defined by Digital Con
          <dt>has super-classes</dt>
          <dd>
             <a href="#AcousticParameters"
-               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">Acoustic Properties</a>
+               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">AcousticQuality</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -621,13 +630,13 @@ This section provides details for each class and property defined by Digital Con
          <dt>has super-classes</dt>
          <dd>
             <a href="#AcousticRequirements"
-               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements">Acoustics Regulation</a>
+               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements">AcousticsRegulation</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="SoundSource">
-      <h3>Sound Source<sup class="type-c" title="class">c</sup>
+      <h3>SoundSource<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
@@ -681,7 +690,7 @@ This section provides details for each class and property defined by Digital Con
          <dt>has super-classes</dt>
          <dd>
             <a href="#SoundSource"
-               title="https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource">Sound Source</a>
+               title="https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource">SoundSource</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -697,7 +706,7 @@ This section provides details for each class and property defined by Digital Con
          <dt>has super-classes</dt>
          <dd>
             <a href="#AcousticParameters"
-               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">Acoustic Properties</a>
+               title="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">AcousticQuality</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
