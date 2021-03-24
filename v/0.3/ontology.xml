@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/digitalconstruction/BuildingAcoustics#"
-     xml:base="https://w3id.org/digitalconstruction/BuildingAcoustics"
+<rdf:RDF xmlns="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#"
+     xml:base="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -13,10 +13,10 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="http://schema.org/">
-    <owl:Ontology rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics">
+    <owl:Ontology rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics">
         <owl:imports rdf:resource="http://www.w3.org/ns/ssn/"/>
         <owl:imports rdf:resource="https://w3id.org/bot#"/>
-        <owl:imports rdf:resource="https://w3id.org/digitalconstruction/Information"/>
+        <owl:imports rdf:resource="https://w3id.org/digitalconstruction/0.3/Information"/>
         <dc:creator>RISE (ri.se)</dc:creator>
         <dc:creator>SUITE5 (suite5.eu)</dc:creator>
         <terms:abstract>Extension of W3C Semantic Sensor Network Ontology (SSN) with representation of building acoustics.</terms:abstract>
@@ -25,7 +25,7 @@
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Digital Construction - BuildingAcoustics</terms:title>
         <vann:preferredNamespacePrefix>dicba</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri>https://w3id.org/digitalconstruction/BuildingAcoustics</vann:preferredNamespaceUri>
+        <vann:preferredNamespaceUri>https://w3id.org/digitalconstruction/0.3/BuildingAcoustics</vann:preferredNamespaceUri>
         <rdfs:comment>The IAQ ontology was created by SUITE5 in the BIM4EEB project (GA 820660), supported through the EU Horizon 2020 Research and Innovation Programme under the topic Building information modelling adapted to efficient renovation (RIA). </rdfs:comment>
         <rdfs:label>Digital Construction - BuildingAcoustics</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://w3id.org/digitalconstruction"/>
@@ -71,31 +71,31 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#AverageNoiseLevel -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AverageNoiseLevel -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#AverageNoiseLevel"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AverageNoiseLevel"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#Noise -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Noise -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#Noise"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Noise"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#PercentilNoiseLevel -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#PercentilNoiseLevel -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#PercentilNoiseLevel"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#PercentilNoiseLevel"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#ReverberationTime -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#ReverberationTime -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#ReverberationTime"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#ReverberationTime"/>
     
 
 
@@ -118,91 +118,91 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#hasConstrains -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasConstrains -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#hasConstrains">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasConstrains">
         <rdfs:comment>building zone has constrains some acoustics requirements as defined by regulation</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#hasJointInsulation -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasJointInsulation -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#hasJointInsulation">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasJointInsulation">
         <rdfs:comment>A joint has joint insulation parameters</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#hasMeter -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasMeter -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#hasMeter">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasMeter">
         <rdfs:comment>A zone has some IoT equipment installed to measure acoustics related parameters</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundInsulation -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundInsulation">
         <rdfs:comment>building element has sound insulation</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundMetrics -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundMetrics -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundMetrics">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundMetrics">
         <rdfs:comment>Relationship between the acoustic performance and the metrics considered from the zone</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPerformance -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundPerformance -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPerformance">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundPerformance">
         <rdfs:comment>A building zone has some sound performance</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPowerLevel -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundPowerLevel -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPowerLevel">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundPowerLevel">
         <rdfs:comment>Sound source has some accoustics performance value</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundSource -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundSource -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundSource">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundSource">
         <rdfs:comment>A zone has a sound source</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#hasSource -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSource -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSource">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSource">
         <rdfs:comment>Noise observation has source</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#observes -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#observes -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#observes">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#observes">
         <rdfs:comment>sensor observation value</rdfs:comment>
     </owl:ObjectProperty>
     
@@ -220,50 +220,50 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#hasAcousticPerformance -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasAcousticPerformance -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#hasAcousticPerformance">
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AverageNoiseLevel"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#PercentilNoiseLevel"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#ReverberationTime"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasAcousticPerformance">
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AverageNoiseLevel"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#PercentilNoiseLevel"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#ReverberationTime"/>
         <rdfs:comment>A list of acoustics peformance indicators</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasDescription -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasDescription">
         <rdfs:comment>A description of the class</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#hasName -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasName -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#hasName">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasName">
         <rdfs:comment>Class name</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#hasObservationType -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasObservationType -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#hasObservationType">
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#Noise"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasObservationType">
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Noise"/>
         <rdfs:comment>Type of accoustics related observation</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#hasPublisher -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasPublisher -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#hasPublisher">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasPublisher">
         <rdfs:comment>A regulation publisher</rdfs:comment>
     </owl:DatatypeProperty>
     
@@ -287,13 +287,13 @@
     <owl:Class rdf:about="https://w3id.org/bot#Element">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasName"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasName"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -313,37 +313,37 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasConstrains"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasConstrains"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticRequirements"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasMeter"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsMeter"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasMeter"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsMeter"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPerformance"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundPerformance"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsPerformance"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundSource"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundSource"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SoundSource"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasName"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasName"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -351,26 +351,26 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticParameters -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticParameters">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasName"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasName"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasPublisher"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasPublisher"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -380,21 +380,21 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticRequirements -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/Entities#InformationContentEntity"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/Information#RegulatoryOrder"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticRequirements">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/Entities#InformationContentEntity"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/Information#RegulatoryOrder"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasName"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasName"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -404,20 +404,20 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsMeter -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsMeter -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsMeter">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsMeter">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasName"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasName"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -427,15 +427,15 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsObservation -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsObservation -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsObservation">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsObservation">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSource"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSource"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SoundSource"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>The list of acoustics measurements in the bulding environment as captured by the noise sensor</rdfs:comment>
@@ -444,32 +444,32 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsPerformance -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/Information#PerformanceIndicator"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsPerformance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/Information#PerformanceIndicator"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasConstrains"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasConstrains"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticRequirements"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundMetrics"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsObservation"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundMetrics"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsObservation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasAcousticPerformance"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasAcousticPerformance"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -479,20 +479,20 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsProperty -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsProperty">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasObservationType"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasObservationType"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -502,35 +502,35 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundImprovement -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AirborneSoundImprovement -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundImprovement">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AirborneSoundImprovement">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticParameters"/>
         <rdfs:comment>Airborne Sound Improvement for a building element</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AirborneSoundInsulation -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AirborneSoundInsulation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticParameters"/>
         <rdfs:comment>Airborne Sound Insulation  for a building element</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#Door -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Door -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#Door">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Door">
         <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Element"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundInsulation"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AirborneSoundInsulation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Building Door</rdfs:comment>
@@ -538,25 +538,25 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#Elevator -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Elevator -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#Elevator">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#ServiceEquipment"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Elevator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#ServiceEquipment"/>
         <rdfs:comment>Building Elevator</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#FacadeElement -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#FacadeElement -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#FacadeElement">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#FacadeElement">
         <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Element"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundInsulation"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AirborneSoundInsulation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Building Facade</rdfs:comment>
@@ -564,25 +564,25 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#FlankingSoundTransmission -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#FlankingSoundTransmission -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#FlankingSoundTransmission">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#FlankingSoundTransmission">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticParameters"/>
         <rdfs:comment>Flanking  Sound Improvement for a building element</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#Floor -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Floor -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#Floor">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Floor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Element"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundInsulation"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AirborneSoundInsulation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Building Floor</rdfs:comment>
@@ -590,15 +590,15 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#FloorCovering -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#FloorCovering -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#FloorCovering">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#FloorCovering">
         <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Element"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundInsulation"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AirborneSoundInsulation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Floor Covering Element</rdfs:comment>
@@ -606,35 +606,35 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#HVAC -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#HVAC -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#HVAC">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#ServiceEquipment"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#HVAC">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#ServiceEquipment"/>
         <rdfs:comment>HVAC Unit of the building</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#ImpactNoise -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#ImpactNoise -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#ImpactNoise">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#ImpactNoise">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticParameters"/>
         <rdfs:comment>Impact Noise of a building element</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#Joint -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Joint -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#Joint">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Joint">
         <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Element"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasJointInsulation"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#JointSoundInsulation"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasJointInsulation"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#JointSoundInsulation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Joint Section of the building</rdfs:comment>
@@ -642,25 +642,25 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#JointSoundInsulation -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#JointSoundInsulation -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#JointSoundInsulation">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#JointSoundInsulation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticParameters"/>
         <rdfs:comment>Joint  Sound Improvement for a building element</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#NoiseSensor -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#NoiseSensor -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#NoiseSensor">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#NoiseSensor">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#observes"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#observes"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsProperty"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>The sensor as part of the acoustics meter responsible to measure the noise level in the building area</rdfs:comment>
@@ -669,33 +669,33 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#ServiceEquipment -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#ServiceEquipment -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#ServiceEquipment">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#ServiceEquipment">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SoundSource"/>
         <rdfs:comment>Sound generation source equipment</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#SoundAbsorption -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SoundAbsorption -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#SoundAbsorption">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SoundAbsorption">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticParameters"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#SoundClass -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SoundClass -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#SoundClass">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SoundClass">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticRequirements"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasPublisher"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasPublisher"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -705,25 +705,25 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SoundSource -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SoundSource">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPowerLevel"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundPowerLevel"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsPerformance"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasDescription"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasName"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasName"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -733,15 +733,15 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#SuspendedCeiling -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SuspendedCeiling -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#SuspendedCeiling">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SuspendedCeiling">
         <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Element"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundInsulation"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AirborneSoundInsulation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Suspended Ceiling Element</rdfs:comment>
@@ -749,34 +749,34 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#Talk -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Talk -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#Talk">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Talk">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SoundSource"/>
         <rdfs:comment>Sound generation source other</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#VibrationReductionIndex -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#VibrationReductionIndex -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#VibrationReductionIndex">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#VibrationReductionIndex">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticParameters"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#Wall -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Wall -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#Wall">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Wall">
         <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Element"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundInsulation"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AirborneSoundInsulation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Buidling Wall</rdfs:comment>
@@ -784,25 +784,25 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#WasteWater -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#WasteWater -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#WasteWater">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#ServiceEquipment"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#WasteWater">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#ServiceEquipment"/>
         <rdfs:comment>Waste water from the water source</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#Window -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Window -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#Window">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Window">
         <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Element"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundInsulation"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AirborneSoundInsulation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Building Window</rdfs:comment>
@@ -822,10 +822,10 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/BuildingAcoustics#noise -->
+    <!-- https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#noise -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/BuildingAcoustics#noise"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#noise"/>
 </rdf:RDF>
 
 

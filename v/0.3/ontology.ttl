@@ -1,15 +1,15 @@
-@prefix : <https://w3id.org/digitalconstruction/BuildingAcoustics#> .
+@prefix : <https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://w3id.org/digitalconstruction/BuildingAcoustics> .
+@base <https://w3id.org/digitalconstruction/0.3/BuildingAcoustics> .
 
-<https://w3id.org/digitalconstruction/BuildingAcoustics> rdf:type owl:Ontology ;
+<https://w3id.org/digitalconstruction/0.3/BuildingAcoustics> rdf:type owl:Ontology ;
                                                           owl:imports <http://www.w3.org/ns/ssn/> ,
                                                                       <https://w3id.org/bot#> ,
-                                                                      <https://w3id.org/digitalconstruction/Information> ;
+                                                                      <https://w3id.org/digitalconstruction/0.3/Information> ;
                                                           <http://purl.org/dc/elements/1.1/creator> "RISE (ri.se)" ,
                                                                                                     "SUITE5 (suite5.eu)" ;
                                                           <http://purl.org/dc/terms/abstract> "Extension of W3C Semantic Sensor Network Ontology (SSN) with representation of building acoustics." ;
@@ -18,7 +18,7 @@
                                                           <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                                           <http://purl.org/dc/terms/title> "Digital Construction - BuildingAcoustics" ;
                                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "dicba" ;
-                                                          <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/digitalconstruction/BuildingAcoustics" ;
+                                                          <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/digitalconstruction/0.3/BuildingAcoustics" ;
                                                           rdfs:comment "The IAQ ontology was created by SUITE5 in the BIM4EEB project (GA 820660), supported through the EU Horizon 2020 Research and Innovation Programme under the topic Building information modelling adapted to efficient renovation (RIA). " ;
                                                           rdfs:label "Digital Construction - BuildingAcoustics" ;
                                                           rdfs:seeAlso <https://w3id.org/digitalconstruction> .
@@ -39,19 +39,19 @@
 #    Datatypes
 #################################################################
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#AverageNoiseLevel
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AverageNoiseLevel
 :AverageNoiseLevel rdf:type rdfs:Datatype .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#Noise
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Noise
 :Noise rdf:type rdfs:Datatype .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#PercentilNoiseLevel
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#PercentilNoiseLevel
 :PercentilNoiseLevel rdf:type rdfs:Datatype .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#ReverberationTime
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#ReverberationTime
 :ReverberationTime rdf:type rdfs:Datatype .
 
 
@@ -63,52 +63,52 @@
 <https://w3id.org/bot#hasElement> rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#hasConstrains
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasConstrains
 :hasConstrains rdf:type owl:ObjectProperty ;
                rdfs:comment "building zone has constrains some acoustics requirements as defined by regulation" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#hasJointInsulation
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasJointInsulation
 :hasJointInsulation rdf:type owl:ObjectProperty ;
                     rdfs:comment "A joint has joint insulation parameters" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#hasMeter
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasMeter
 :hasMeter rdf:type owl:ObjectProperty ;
           rdfs:comment "A zone has some IoT equipment installed to measure acoustics related parameters" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundInsulation
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundInsulation
 :hasSoundInsulation rdf:type owl:ObjectProperty ;
                     rdfs:comment "building element has sound insulation" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundMetrics
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundMetrics
 :hasSoundMetrics rdf:type owl:ObjectProperty ;
                  rdfs:comment "Relationship between the acoustic performance and the metrics considered from the zone" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPerformance
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundPerformance
 :hasSoundPerformance rdf:type owl:ObjectProperty ;
                      rdfs:comment "A building zone has some sound performance" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundPowerLevel
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundPowerLevel
 :hasSoundPowerLevel rdf:type owl:ObjectProperty ;
                     rdfs:comment "Sound source has some accoustics performance value" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#hasSoundSource
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSoundSource
 :hasSoundSource rdf:type owl:ObjectProperty ;
                 rdfs:comment "A zone has a sound source" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#hasSource
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasSource
 :hasSource rdf:type owl:ObjectProperty ;
            rdfs:comment "Noise observation has source" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#observes
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#observes
 :observes rdf:type owl:ObjectProperty ;
           rdfs:comment "sensor observation value" .
 
@@ -117,7 +117,7 @@
 #    Data properties
 #################################################################
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#hasAcousticPerformance
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasAcousticPerformance
 :hasAcousticPerformance rdf:type owl:DatatypeProperty ;
                         rdfs:range :AverageNoiseLevel ,
                                    :PercentilNoiseLevel ,
@@ -125,23 +125,23 @@
                         rdfs:comment "A list of acoustics peformance indicators" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#hasDescription
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasDescription
 :hasDescription rdf:type owl:DatatypeProperty ;
                 rdfs:comment "A description of the class" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#hasName
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasName
 :hasName rdf:type owl:DatatypeProperty ;
          rdfs:comment "Class name" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#hasObservationType
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasObservationType
 :hasObservationType rdf:type owl:DatatypeProperty ;
                     rdfs:range :Noise ;
                     rdfs:comment "Type of accoustics related observation" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#hasPublisher
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#hasPublisher
 :hasPublisher rdf:type owl:DatatypeProperty ;
               rdfs:comment "A regulation publisher" .
 
@@ -194,7 +194,7 @@
                                             ] .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticParameters
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticParameters
 :AcousticParameters rdf:type owl:Class ;
                     rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ,
                                     [ rdf:type owl:Restriction ;
@@ -213,10 +213,10 @@
                     rdfs:label "AcousticQuality" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticRequirements
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticRequirements
 :AcousticRequirements rdf:type owl:Class ;
-                      rdfs:subClassOf <https://w3id.org/digitalconstruction/Entities#InformationContentEntity> ,
-                                      <https://w3id.org/digitalconstruction/Information#RegulatoryOrder> ,
+                      rdfs:subClassOf <https://w3id.org/digitalconstruction/0.3/Entities#InformationContentEntity> ,
+                                      <https://w3id.org/digitalconstruction/0.3/Information#RegulatoryOrder> ,
                                       [ rdf:type owl:Restriction ;
                                         owl:onProperty :hasDescription ;
                                         owl:someValuesFrom xsd:string
@@ -229,7 +229,7 @@
                       rdfs:label "AcousticsRegulation" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsMeter
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsMeter
 :AcousticsMeter rdf:type owl:Class ;
                 rdfs:subClassOf <http://www.w3.org/ns/sosa/Platform> ,
                                 [ rdf:type owl:Restriction ;
@@ -244,7 +244,7 @@
                 rdfs:label "Acoustic Meter" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsObservation
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsObservation
 :AcousticsObservation rdf:type owl:Class ;
                       rdfs:subClassOf <http://www.w3.org/ns/sosa/Observation> ,
                                       [ rdf:type owl:Restriction ;
@@ -255,9 +255,9 @@
                       rdfs:label "Acoustic Observation" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsPerformance
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsPerformance
 :AcousticsPerformance rdf:type owl:Class ;
-                      rdfs:subClassOf <https://w3id.org/digitalconstruction/Information#PerformanceIndicator> ,
+                      rdfs:subClassOf <https://w3id.org/digitalconstruction/0.3/Information#PerformanceIndicator> ,
                                       [ rdf:type owl:Restriction ;
                                         owl:onProperty :hasConstrains ;
                                         owl:someValuesFrom :AcousticRequirements
@@ -278,7 +278,7 @@
                       rdfs:label "AcousticPerformance" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#AcousticsProperty
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AcousticsProperty
 :AcousticsProperty rdf:type owl:Class ;
                    rdfs:subClassOf <http://www.w3.org/ns/sosa/ObservableProperty> ,
                                    [ rdf:type owl:Restriction ;
@@ -293,19 +293,19 @@
                    rdfs:label "Acoustic Property" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundImprovement
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AirborneSoundImprovement
 :AirborneSoundImprovement rdf:type owl:Class ;
                           rdfs:subClassOf :AcousticParameters ;
                           rdfs:comment "Airborne Sound Improvement for a building element" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#AirborneSoundInsulation
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#AirborneSoundInsulation
 :AirborneSoundInsulation rdf:type owl:Class ;
                          rdfs:subClassOf :AcousticParameters ;
                          rdfs:comment "Airborne Sound Insulation  for a building element" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#Door
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Door
 :Door rdf:type owl:Class ;
       rdfs:subClassOf <https://w3id.org/bot#Element> ,
                       [ rdf:type owl:Restriction ;
@@ -315,13 +315,13 @@
       rdfs:comment "Building Door" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#Elevator
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Elevator
 :Elevator rdf:type owl:Class ;
           rdfs:subClassOf :ServiceEquipment ;
           rdfs:comment "Building Elevator" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#FacadeElement
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#FacadeElement
 :FacadeElement rdf:type owl:Class ;
                rdfs:subClassOf <https://w3id.org/bot#Element> ,
                                [ rdf:type owl:Restriction ;
@@ -331,13 +331,13 @@
                rdfs:comment "Building Facade" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#FlankingSoundTransmission
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#FlankingSoundTransmission
 :FlankingSoundTransmission rdf:type owl:Class ;
                            rdfs:subClassOf :AcousticParameters ;
                            rdfs:comment "Flanking  Sound Improvement for a building element" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#Floor
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Floor
 :Floor rdf:type owl:Class ;
        rdfs:subClassOf <https://w3id.org/bot#Element> ,
                        [ rdf:type owl:Restriction ;
@@ -347,7 +347,7 @@
        rdfs:comment "Building Floor" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#FloorCovering
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#FloorCovering
 :FloorCovering rdf:type owl:Class ;
                rdfs:subClassOf <https://w3id.org/bot#Element> ,
                                [ rdf:type owl:Restriction ;
@@ -357,19 +357,19 @@
                rdfs:comment "Floor Covering Element" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#HVAC
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#HVAC
 :HVAC rdf:type owl:Class ;
       rdfs:subClassOf :ServiceEquipment ;
       rdfs:comment "HVAC Unit of the building" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#ImpactNoise
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#ImpactNoise
 :ImpactNoise rdf:type owl:Class ;
              rdfs:subClassOf :AcousticParameters ;
              rdfs:comment "Impact Noise of a building element" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#Joint
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Joint
 :Joint rdf:type owl:Class ;
        rdfs:subClassOf <https://w3id.org/bot#Element> ,
                        [ rdf:type owl:Restriction ;
@@ -379,13 +379,13 @@
        rdfs:comment "Joint Section of the building" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#JointSoundInsulation
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#JointSoundInsulation
 :JointSoundInsulation rdf:type owl:Class ;
                       rdfs:subClassOf :AcousticParameters ;
                       rdfs:comment "Joint  Sound Improvement for a building element" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#NoiseSensor
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#NoiseSensor
 :NoiseSensor rdf:type owl:Class ;
              rdfs:subClassOf <http://www.w3.org/ns/sosa/Sensor> ,
                              [ rdf:type owl:Restriction ;
@@ -396,18 +396,18 @@
              rdfs:label "Noise Sensor" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#ServiceEquipment
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#ServiceEquipment
 :ServiceEquipment rdf:type owl:Class ;
                   rdfs:subClassOf :SoundSource ;
                   rdfs:comment "Sound generation source equipment" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#SoundAbsorption
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SoundAbsorption
 :SoundAbsorption rdf:type owl:Class ;
                  rdfs:subClassOf :AcousticParameters .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#SoundClass
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SoundClass
 :SoundClass rdf:type owl:Class ;
             rdfs:subClassOf :AcousticRequirements ,
                             [ rdf:type owl:Restriction ;
@@ -418,7 +418,7 @@
             rdfs:label "Sound Class" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#SoundSource
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SoundSource
 :SoundSource rdf:type owl:Class ;
              rdfs:subClassOf [ rdf:type owl:Restriction ;
                                owl:onProperty :hasSoundPowerLevel ;
@@ -436,7 +436,7 @@
              rdfs:label "SoundSource" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#SuspendedCeiling
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#SuspendedCeiling
 :SuspendedCeiling rdf:type owl:Class ;
                   rdfs:subClassOf <https://w3id.org/bot#Element> ,
                                   [ rdf:type owl:Restriction ;
@@ -446,18 +446,18 @@
                   rdfs:comment "Suspended Ceiling Element" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#Talk
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Talk
 :Talk rdf:type owl:Class ;
       rdfs:subClassOf :SoundSource ;
       rdfs:comment "Sound generation source other" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#VibrationReductionIndex
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#VibrationReductionIndex
 :VibrationReductionIndex rdf:type owl:Class ;
                          rdfs:subClassOf :AcousticParameters .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#Wall
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Wall
 :Wall rdf:type owl:Class ;
       rdfs:subClassOf <https://w3id.org/bot#Element> ,
                       [ rdf:type owl:Restriction ;
@@ -467,13 +467,13 @@
       rdfs:comment "Buidling Wall" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#WasteWater
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#WasteWater
 :WasteWater rdf:type owl:Class ;
             rdfs:subClassOf :ServiceEquipment ;
             rdfs:comment "Waste water from the water source" .
 
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#Window
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#Window
 :Window rdf:type owl:Class ;
         rdfs:subClassOf <https://w3id.org/bot#Element> ,
                         [ rdf:type owl:Restriction ;
@@ -487,7 +487,7 @@
 #    Individuals
 #################################################################
 
-###  https://w3id.org/digitalconstruction/BuildingAcoustics#noise
+###  https://w3id.org/digitalconstruction/0.3/BuildingAcoustics#noise
 :noise rdf:type owl:NamedIndividual .
 
 
